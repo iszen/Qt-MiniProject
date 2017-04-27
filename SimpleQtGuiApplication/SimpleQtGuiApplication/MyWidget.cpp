@@ -9,7 +9,7 @@ MyWidget::MyWidget(QWidget *parent) : QWidget(parent)//super() in java
 
 void MyWidget::paintEvent(QPaintEvent *e) 
 {
-	//QPushButton::paintEvent();
+	//QPushButton::paintEvent(e);
 	QPainter painter(this);
 	painter.drawEllipse(this->rect());//statt rect konnte man auch size nehmen
 }

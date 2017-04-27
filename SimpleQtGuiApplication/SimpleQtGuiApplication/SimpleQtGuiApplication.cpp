@@ -2,6 +2,10 @@
 #include "QPushButton.h"
 #include "MyWidget.h"
 
+//Signal slot prinzip von Qt is asynchron
+//sinal funktionn hben keiner korper
+//(21) connect ist eigentlich ein macro
+//Q_OBJECT wichtig 
 SimpleQtGuiApplication::SimpleQtGuiApplication(QWidget *parent)
 	: QMainWindow(parent)
 {
@@ -16,5 +20,10 @@ SimpleQtGuiApplication::SimpleQtGuiApplication(QWidget *parent)
 	myWidget->move(500, 250);
 	myWidget->resize(100, 100);
 	myWidget->show();
+	connect(ui.actionExit, SIGNAL(triggered()), this, SLOT(ola()));
+}
 
+void SimpleQtGuiApplication::ola() 
+{
+	this->close();
 }

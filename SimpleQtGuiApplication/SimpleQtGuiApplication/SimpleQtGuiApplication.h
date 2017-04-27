@@ -9,7 +9,8 @@ class SimpleQtGuiApplication : public QMainWindow
 
 public:
     SimpleQtGuiApplication(QWidget *parent = Q_NULLPTR);
-
+public slots:
+	void ola();
 private:
     Ui::SimpleQtGuiApplicationClass ui;
 };
