@@ -55,6 +55,9 @@
     <ClCompile Include="GeneratedFiles\qrc_SimpleQtGuiApplication.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="MyWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="SimpleQtGuiApplication.h">
@@ -70,6 +73,9 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_SimpleQtGuiApplication.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWidget.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
