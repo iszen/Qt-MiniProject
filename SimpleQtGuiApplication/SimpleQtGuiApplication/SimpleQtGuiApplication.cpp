@@ -3,7 +3,7 @@
 #include "MyWidget.h"
 
 //Signal slot prinzip von Qt is asynchron
-//sinal funktionn hben keiner korper
+//sinal funktionn haben keinen Koerper
 //(21) connect ist eigentlich ein macro
 //Q_OBJECT wichtig 
 SimpleQtGuiApplication::SimpleQtGuiApplication(QWidget *parent)
