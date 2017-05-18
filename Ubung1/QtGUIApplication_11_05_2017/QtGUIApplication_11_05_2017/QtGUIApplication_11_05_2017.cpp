@@ -13,8 +13,9 @@ QtGUIApplication_11_05_2017::QtGUIApplication_11_05_2017(QWidget *parent)
 	ui.setupUi(this);
 }
 
-void QtQtGUIApplication_11_05_2017::keyPressEvent(QKeyEvent* e) {
+void QtGUIApplication_11_05_2017::keyPressEvent(QKeyEvent* e) {
 	if (e->key() == Qt::Key::Key_H) {
 		QMessageBox box(QMessageBox::Icon::Question, "Title", "H Pressed");
+		box.exec();
 	}
 }
