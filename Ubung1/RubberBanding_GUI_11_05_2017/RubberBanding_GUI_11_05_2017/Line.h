@@ -20,11 +20,11 @@ public:
 		recalc();
 	}
 
-	void recalc();
 
 protected:
 	void paintEvent(QPaintEvent *e) override;
 
 private:
 	QPoint m_start, m_end;
+	void recalc();
 };

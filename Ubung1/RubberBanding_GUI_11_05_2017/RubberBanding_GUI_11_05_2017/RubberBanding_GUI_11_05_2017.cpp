@@ -12,6 +12,6 @@ RubberBanding_GUI_11_05_2017::RubberBanding_GUI_11_05_2017(QWidget *parent)
 	this->setCentralWidget(drawBoard);
 
 	auto line = new Line(drawBoard);
-	line->setStart(QPoint(0, 0));
-	line->setEnd(QPoint(1500, 1500));
+	line->setStart(QPoint(1, 5));
+	line->setEnd(QPoint(10, 600));
 }
